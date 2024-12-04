@@ -1,0 +1,43 @@
+# Gitignore file for openfoam projects
+# Copied from https://github.com/olegrog/my_openfoam
+
+
+# Compilation files
+*.o
+*.dep
+linux*
+lnInclude*
+
+# Run files
+log*
+dynamicCode
+polyMesh
+faMesh
+boundary
+postProcessing
+processor*
+[1-9]*
+0.[0-9]*
+*.gz
+*.foam
+*.msh
+*.obj
+cellLevel
+uniform
+
+# Results files
+*.vtk
+*.vtk.series
+*.log
+*.dat
+
+# Graphics
+*.pdf
+*.eps
+*.png
+*.jpg
+
+# Movies
+*.avi
+*.mp4
+
